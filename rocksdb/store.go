@@ -14,7 +14,7 @@ import (
 
 	"github.com/blevesearch/bleve/index/store"
 	"github.com/blevesearch/bleve/registry"
-	"github.com/tecbot/gorocksdb"
+	gorocksdb "github.com/unigraph/rdb"
 )
 
 const Name = "rocksdb"

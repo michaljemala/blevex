@@ -76,6 +76,7 @@ void blevex_rocksdb_free_direct_batch(void **bufs) {
     free(bufs[2]);
 }
 */
+// #cgo LDFLAGS: -lrocksdb -lstdc++
 import "C"
 
 import (
